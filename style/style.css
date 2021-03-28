@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Red Hat Text', sans-serif;
+    background: linear-gradient(180deg, #1e1e28, #241e2c);
+    display: block;
+    overflow: hidden;
+}
+
+.bg {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+
+    background-image: url(../images/bg-stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ############################### */
+/* main */
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+
+/* ############################### */
+/* footer */
+footer {
+    position: relative;
+    width: 100%;
+    background-image: url(../images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.social {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.link:hover svg path {
+    fill: #ff5a82;
+    transition-duration: .4s;
+}
