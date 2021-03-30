@@ -37,7 +37,8 @@ class Timer {
 
 // Init global values
 const date = new Date();
-let launch = new Date('2022-01-01'); // initial countdown timer
+const newYear = date.getFullYear() + 1;
+let launch = new Date(`${newYear}-01-01`); // initial countdown timer
 launch.setTime(launch); // initial countdown timer
 console.log(launch);
 const timer = new Timer(date, launch);
