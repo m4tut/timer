@@ -238,7 +238,7 @@ footer {
     }
 
     .top > h2 {
-        transform: translateY(41%);
+        transform: translateY(40%);
     }
 
     .bottom {
@@ -247,7 +247,7 @@ footer {
     }
 
     .bottom > h2 {
-        transform: translateY(-35%);
+        transform: translateY(-45%);
     }
 
     .bottom::after,
